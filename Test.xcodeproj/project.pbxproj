@@ -14,7 +14,7 @@
 		014DD9971B068D4600EBA79F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014DD9961B068D4600EBA79F /* Images.xcassets */; };
 		014DD99A1B068D4600EBA79F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014DD9981B068D4600EBA79F /* LaunchScreen.xib */; };
 		014DD9A61B068D4600EBA79F /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 014DD9A51B068D4600EBA79F /* TestTests.m */; };
-		014DD9B01B068DD800EBA79F /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 014DD9AF1B068DD800EBA79F /* banner.png */; };
+		3240BF6A1B06BD2500053EF7 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 3240BF691B06BD2500053EF7 /* banner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		014DD99F1B068D4600EBA79F /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		014DD9A41B068D4600EBA79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		014DD9A51B068D4600EBA79F /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
-		014DD9AF1B068DD800EBA79F /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		3240BF691B06BD2500053EF7 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		014DD9881B068D4600EBA79F /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				014DD9AF1B068DD800EBA79F /* banner.png */,
+				3240BF691B06BD2500053EF7 /* banner.png */,
 				014DD98D1B068D4600EBA79F /* AppDelegate.h */,
 				014DD98E1B068D4600EBA79F /* AppDelegate.m */,
 				014DD9901B068D4600EBA79F /* ViewController.h */,
@@ -204,8 +204,8 @@
 			files = (
 				014DD9951B068D4600EBA79F /* Main.storyboard in Resources */,
 				014DD99A1B068D4600EBA79F /* LaunchScreen.xib in Resources */,
+				3240BF6A1B06BD2500053EF7 /* banner.png in Resources */,
 				014DD9971B068D4600EBA79F /* Images.xcassets in Resources */,
-				014DD9B01B068DD800EBA79F /* banner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +420,7 @@
 				014DD9AB1B068D4600EBA79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		014DD9AC1B068D4600EBA79F /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				014DD9AE1B068D4600EBA79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
